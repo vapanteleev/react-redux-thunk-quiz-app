@@ -1,0 +1,32 @@
+.QuizList {
+  display: block;
+  flex-grow: 1;
+  width: 100%;
+  padding-left: 45%;
+  padding-top: 5%;
+
+  background: cornflowerblue;
+}
+
+.QuizList h1 {
+  color: #fff;
+}
+
+.QuizList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.QuizList li {
+  margin-bottom: 10px;
+}
+
+.QuizList li a {
+  text-decoration: none;
+  color: cornsilk;
+}
+
+.QuizList li a:hover {
+  color: deeppink;
+}
